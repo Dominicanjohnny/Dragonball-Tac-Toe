@@ -15,10 +15,7 @@ $(document).ready(function() {
     var o_win = 0;
     var x_win = 0;
     var backgroundSound = document.getElementById('myAudio');
-//     function playAudio() {
-//       backgroundSound.play();
-//   }
-   
+
 // playAudio();
     $('#game li').click(function(){
     
