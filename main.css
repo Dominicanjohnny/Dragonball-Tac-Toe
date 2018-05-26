@@ -8,33 +8,19 @@ body {
     margin: 0px;
     padding: 0px;
     border: 20px solid red;
-    background-image: url(/Users/johnatan/Desktop/Dragonball-shooter-project1/images/images.jpeg);
+    background-image: url(/Users/johnatan/Desktop/Dragonball-Tic-Tac-Toe/images/download.jpeg);
     imageStretchToFit: true;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 1200px 1200px;
    
 }
-audio {
+#myAudio {
     display:none;
+
+    
  }
 
-/* canvas {s
-    display:block;
-    position: relative;
-    margin:30px auto 0;
-      margin-left: auto;
-      margin-right: auto;
-    border:1px dashed #ccc;
-      padding-left: 0;
-      padding-right: 0;
-    background:#000;
-    
-    overflow: hidden;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 1000px 1000px;
-  } */
 
 #tic-tac-toe .disable {
     text-transform:uppercase; 

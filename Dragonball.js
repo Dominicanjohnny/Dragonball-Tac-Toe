@@ -1,3 +1,12 @@
+
+
+
+
+   
+    
+
+
+
 // JavaScript Document
 $(document).ready(function() {
     var x = "x"
@@ -5,6 +14,12 @@ $(document).ready(function() {
     var count = 0;
     var o_win = 0;
     var x_win = 0;
+    var backgroundSound = document.getElementById('myAudio');
+//     function playAudio() {
+//       backgroundSound.play();
+//   }
+   
+// playAudio();
     $('#game li').click(function(){
     
       if ($("#one").hasClass('o') && 
@@ -32,6 +47,8 @@ $(document).ready(function() {
         $("#five").hasClass('o') && 
         $("#seven").hasClass('o'))
        {
+         
+
          alert('O has won the game. Start a new game')
          $("#game li").text("+");
         $("#game li").removeClass('disable')
