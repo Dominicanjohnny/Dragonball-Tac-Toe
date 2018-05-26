@@ -8,7 +8,7 @@ body {
     margin: 0px;
     padding: 0px;
     border: 20px solid red;
-    background-image: url(/Users/johnatan/Desktop/Dragonball-Tic-Tac-Toe/images/download.jpeg);
+    background-image: url(Dragonball-Tic-Tac-Toe/images/download.jpeg);
     imageStretchToFit: true;
     background-position: center;
     background-repeat: no-repeat;
