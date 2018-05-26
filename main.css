@@ -9,13 +9,17 @@ body {
     padding: 0px;
     border: 20px solid red;
     background-image: url(/Users/johnatan/Desktop/Dragonball-shooter-project1/images/images.jpeg);
+    imageStretchToFit: true;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 1000px 1000px;
+    background-size: 1200px 1200px;
    
 }
+audio {
+    display:none;
+ }
 
-/* canvas {
+/* canvas {s
     display:block;
     position: relative;
     margin:30px auto 0;
